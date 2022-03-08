@@ -6,7 +6,9 @@
     box-sizing: border-box;
 }
 
-
+ul {
+    list-style: none;
+}
 /* COMMON */
 
 .shoes {
@@ -20,10 +22,32 @@
 html {
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 100%;
+    scroll-behavior: smooth;
 }
 
+/* menu */
+    .menu {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 100;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 100%;
+        border-radius: 100%;
+    }
+
+    .menu li {
+        display: inline-block;
+        padding: 0 1em;
+    }
 
 /* title */
+
 .title {
     font-size: 50px;
 }
