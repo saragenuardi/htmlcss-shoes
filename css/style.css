@@ -17,7 +17,24 @@
     text-align: center;
 }
 
+html {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 100%;
+}
 
+
+/* title */
+.title {
+    font-size: 50px;
+}
+
+.t-yellow {
+    color: yellow;
+}
+
+.t-green {
+    color: green;
+}
 
 /* main */
 
@@ -31,5 +48,10 @@
     background-color: red;
 }
 
+.s-green {
+    background-color: green;
+}
 
-
+.s-yellow {
+    background-color: yellow;
+}
