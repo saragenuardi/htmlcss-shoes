@@ -7,6 +7,18 @@
 }
 
 
+/* COMMON */
+
+.shoes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
 /* main */
 
 .shoes-container {
@@ -17,13 +29,6 @@
 
 .s-red {
     background-color: red;
-}
-
-.shoes {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 
