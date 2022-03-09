@@ -16,6 +16,10 @@ ul {
     list-style: none;
 }
 
+img {
+    width: 100%;
+}
+
 /* COMMON */
 
 .shoes {
@@ -50,7 +54,7 @@ ul {
 /* title */
 
 .title {
-    font-size: 50px;
+    font-size: 2em;
 }
 
 .t-yellow {
